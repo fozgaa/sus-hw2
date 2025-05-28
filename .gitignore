@@ -1,0 +1,159 @@
+# General
+################################################################################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.DS_Store # macOS
+Thumbs.db    # Windows
+ehthumbs.db  # Windows
+Desktop.ini  # Windows custom folder attributes
+$RECYCLE.BIN/ # Windows recycle bin
+
+# Temporary files #
+###################
+*~
+*.tmp
+*.temp
+*.swp # Vim swap files
+*.swo # Vim swap files (persistent undo)
+
+# IDE / Editor specific files
+################################################################################
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, RubyMine, PhpStorm, etc.)
+.idea/
+*.iml
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+build/
+dist/ # Often a build output directory, not just NetBeans
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+packages/
+
+# Build output / Dependencies
+################################################################################
+# Common build output directories
+build/
+dist/
+out/
+target/ # Common for Java (Maven/Gradle), Rust
+
+# Dependency directories (managed by package managers)
+node_modules/
+bower_components/
+vendor/ # Common for PHP (Composer), Ruby (Bundler), Go
+jspm_packages/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.cache/
+.pytest_cache/
+.tox/
+.hypothesis/
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Sensitive Information / Local Config
+################################################################################
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local configuration files (often for overriding committed defaults)
+config.local.*
+settings.local.*
+local_settings.py
+
+# Credentials
+credentials.*
+secrets.*
+*.pem
+*.key
+*.keychain
+
+# Cloud Provider / Deployment specific
+################################################################################
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Serverless Framework
+.serverless/
+
+# AWS SAM
+.aws-sam/
+
+# Other common
+################################################################################
+# OS generated files
+.DS_Store
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sass cache
+.sass-cache/
+
+# Uploads / Media that shouldn't be versioned
+uploads/
+media/ # If it's user-generated or too large
+
+# Coverage reports
+coverage/
+htmlcov/
+*.cover
