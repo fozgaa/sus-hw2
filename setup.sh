@@ -75,8 +75,8 @@ echo -e "\n==> Upgrading pip..."
 # Use the Python interpreter from the venv to run pip as a module for the upgrade.
 python -m pip install --upgrade pip
 
-# echo -e "\n==> Installing packages from $REQUIREMENTS_FILE..."
-# python -m pip install -r "$REQUIREMENTS_FILE"
+echo -e "\n==> Installing packages from $REQUIREMENTS_FILE..."
+python -m pip install -r "$REQUIREMENTS_FILE"
 
 echo -e "\n==> Starting training module for DQN agent '$TRAIN_MODULE'..."
 python -m "$TRAIN_MODULE"
